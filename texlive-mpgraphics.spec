@@ -1,3 +1,9 @@
+# revision 22142
+# category Package
+# catalog-ctan /macros/latex/contrib/mpgraphics
+# catalog-date 2011-04-20 18:25:54 +0200
+# catalog-license lppl1.3
+# catalog-version 0.2
 Name:		texlive-mpgraphics
 Version:	0.2
 Release:	1
@@ -48,6 +54,7 @@ is automatic and the end user is saved the tiresome processing.
 #- source
 %doc %{_texmfdistdir}/source/latex/mpgraphics/mpgraphics.dtx
 %doc %{_texmfdistdir}/source/latex/mpgraphics/mpgraphics.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ is automatic and the end user is saved the tiresome processing.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
