@@ -1,12 +1,12 @@
-# revision 22142
+# revision 27230
 # category Package
 # catalog-ctan /macros/latex/contrib/mpgraphics
-# catalog-date 2011-04-20 18:25:54 +0200
+# catalog-date 2012-07-25 12:42:57 +0200
 # catalog-license lppl1.3
-# catalog-version 0.2
+# catalog-version 0.3
 Name:		texlive-mpgraphics
-Version:	0.2
-Release:	2
+Version:	0.3
+Release:	1
 Summary:	Process and display MetaPost figures inline
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mpgraphics
