@@ -54,3 +54,21 @@ is automatic and the end user is saved the tiresome processing.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3-1
++ Revision: 812632
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
++ Revision: 754116
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
++ Revision: 719070
+- texlive-mpgraphics
+- texlive-mpgraphics
+- texlive-mpgraphics
+- texlive-mpgraphics
+
