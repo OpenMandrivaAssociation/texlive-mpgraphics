@@ -1,12 +1,12 @@
-# revision 27230
+# revision 29776
 # category Package
 # catalog-ctan /macros/latex/contrib/mpgraphics
-# catalog-date 2012-07-25 12:42:57 +0200
+# catalog-date 2013-04-08 09:07:09 +0200
 # catalog-license lppl1.3
 # catalog-version 0.3
 Name:		texlive-mpgraphics
 Version:	0.3
-Release:	1
+Release:	2
 Summary:	Process and display MetaPost figures inline
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mpgraphics
@@ -54,21 +54,3 @@ is automatic and the end user is saved the tiresome processing.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3-1
-+ Revision: 812632
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-2
-+ Revision: 754116
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 719070
-- texlive-mpgraphics
-- texlive-mpgraphics
-- texlive-mpgraphics
-- texlive-mpgraphics
-
