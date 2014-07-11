@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-mpgraphics
 Version:	0.3
-Release:	7
+Release:	8
 Summary:	Process and display MetaPost figures inline
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mpgraphics
