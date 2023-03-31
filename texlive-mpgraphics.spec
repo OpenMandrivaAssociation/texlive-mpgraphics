@@ -1,6 +1,6 @@
 Name:		texlive-mpgraphics
 Version:	29776
-Release:	1
+Release:	2
 Summary:	Process and display MetaPost figures inline
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mpgraphics
